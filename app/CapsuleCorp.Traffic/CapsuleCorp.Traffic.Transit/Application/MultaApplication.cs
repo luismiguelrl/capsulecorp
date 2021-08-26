@@ -37,7 +37,7 @@
                 Distancia = $"{AddTrafictFine.Distancia}mts",
                 CiudadAsignada = city.Ciudad,
                 Multa = (AddTrafictFine.Valida) ? Multa.Valida : Multa.Invalida,
-                Retornar404 = (matricula.Length < 7 || city.CiudadId == 0)
+                Retornar404 = (matricula.Length != 7 || city.CiudadId == 0)
             };
         }
 

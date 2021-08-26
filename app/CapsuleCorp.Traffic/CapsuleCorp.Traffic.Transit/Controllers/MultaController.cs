@@ -19,7 +19,7 @@ namespace CapsuleCorp.Traffic.Transit.Controllers
         [HttpPost]
         public ActionResult<LevantarMultaResult> LevantarMulta(string matricula, [FromBody] InformacionSensorRequest request)
         {
-            if (matricula == null) return NotFound();
+            if (matricula == null || matricula.Length != 7) return NotFound();
 
             LevantarMultaResult result = multaApplication.LevantarMulta(matricula, request);
             if (result.Retornar404)
