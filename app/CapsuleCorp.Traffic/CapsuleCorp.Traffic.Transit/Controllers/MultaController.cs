@@ -34,5 +34,12 @@ namespace CapsuleCorp.Traffic.Transit.Controllers
             return multaApplication.LevantarMultaBatch();
         }
 
+        [HttpGet]
+        public LevantarMultaBatchResult Batch()
+        {
+            return new LevantarMultaBatchResult();
+            
+        }
+
     }
 }

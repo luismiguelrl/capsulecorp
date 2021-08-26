@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/CapsuleCorpAPI/apis/CapsuleCorpTraffic",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/basecorpsql/databases/CapsuleCorp",
+      "type": "mssql.azure",
+      "connectionId": "CapsuleCorpContext",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

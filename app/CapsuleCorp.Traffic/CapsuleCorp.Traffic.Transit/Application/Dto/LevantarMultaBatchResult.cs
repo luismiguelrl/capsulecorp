@@ -5,6 +5,12 @@
     {
         public List<LevantarMultaInfoBatch> multasValidas { get; set; }
         public List<LevantarMultaInfoBatch> multasInvalidas { get; set; }
+
+        public LevantarMultaBatchResult()
+        {
+            multasValidas = new List<LevantarMultaInfoBatch>();
+            multasInvalidas = new List<LevantarMultaInfoBatch>();
+        }
     }
 
     public class LevantarMultaInfoBatch
