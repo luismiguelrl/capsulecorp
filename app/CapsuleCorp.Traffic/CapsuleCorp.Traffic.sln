@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{8199886F-E374-430F-B87A-EC3D5D6E3CE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Distribution Services", "Distribution Services", "{16D39D7D-3279-4B19-8A73-5A683F6DD61A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapsuleCorp.Traffic.Transit", "CapsuleCorp.Traffic.Transit\CapsuleCorp.Traffic.Transit.csproj", "{108D763B-93AE-48EE-9E1F-38E9E302DD7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Test", "Unit Test", "{3542A6AD-2510-47FF-92F5-86803C35A54E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{108D763B-93AE-48EE-9E1F-38E9E302DD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108D763B-93AE-48EE-9E1F-38E9E302DD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108D763B-93AE-48EE-9E1F-38E9E302DD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108D763B-93AE-48EE-9E1F-38E9E302DD7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{108D763B-93AE-48EE-9E1F-38E9E302DD7B} = {16D39D7D-3279-4B19-8A73-5A683F6DD61A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E95ECD8-4606-4E3F-9DA3-5C5CA5BD666F}
+	EndGlobalSection
+EndGlobal
